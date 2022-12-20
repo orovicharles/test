@@ -1,0 +1,18 @@
+header{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(../img/banner.jpg);
+    height: 674px;
+}
+header .nav-brand img{
+    height: 150px;
+}
+header .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+}
+header .nav-link:focus, 
+header .nav-link:hover{
+    color: #87d37c;
+}
+.navbar-nav .nav-link.active{
+    color: #87d37c;
+}
